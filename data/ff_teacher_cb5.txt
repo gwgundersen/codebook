@@ -1,0 +1,2165 @@
+
+Date: 24 Sep 2014
+
+
+. codebook k*, tab(35)
+
+-------------------------------------------------------------------------------------------
+kind_a1mo                                            -->a1. month child first entered class
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a1mo, but 10 nonmissing values are not labeled
+
+                 range:  [-2,12]                      units:  1
+         unique values:  12                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             3        -2  -2 Dont Know
+                            34        -1  -1 Refused
+                            10         1  
+                             4         2  
+                             1         3  
+                             4         4  
+                            14         7  
+                           507         8  
+                           416         9  
+                            28        10  
+                            15        11  
+                             3        12  
+
+-------------------------------------------------------------------------------------------
+kind_a1yr                                             -->a1. year child first entered class
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+                 label:  a1yr, but 4 nonmissing values are not labeled
+
+                 range:  [-2,2006]                    units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             3        -2  -2 Dont Know
+                            27        -1  -1 Refused
+                             5      2003  
+                           286      2004  
+                           689      2005  
+                            29      2006  
+
+-------------------------------------------------------------------------------------------
+kind_a2                                                  -->a2. child fell behind in school
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a2
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             9        -1  -1 Refused
+                            49         1  yes
+                           981         2  no
+
+-------------------------------------------------------------------------------------------
+kind_a3                                                 -->a3. structured physical activity
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a3
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            10        -1  -1 Refused
+                            18         1  a lot less active than most
+                           109         2  a little less active than most
+                           648         3  about the same as most
+                           179         4  a little more active than most
+                            75         5  a lot more active than most
+
+-------------------------------------------------------------------------------------------
+kind_a4                                               -->a4. unstructured physical activity
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a4
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            12        -1  -1 Refused
+                            20         1  a lot less active than most
+                           109         2  a little less active than most
+                           621         3  about the same as most
+                           196         4  a little more active than most
+                            81         5  a lot more active than most
+
+-------------------------------------------------------------------------------------------
+kind_a5                                                  -->a5. rate in language & literacy
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a5
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             5        -1  -1 Refused
+                            62         1  far below average
+                           211         2  below average
+                           422         3  average
+                           289         4  above average
+                            50         5  far above average
+
+-------------------------------------------------------------------------------------------
+kind_a6                                             -->a6. rate in science & social studies
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a6
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             9        -1  -1 Refused
+                            39         1  far below average
+                           146         2  below average
+                           638         3  average
+                           189         4  above average
+                            18         5  far above average
+
+-------------------------------------------------------------------------------------------
+kind_a7                                                  -->a7. rate in mathematical skills
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a7
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            12        -1  -1 Refused
+                            54         1  far below average
+                           204         2  below average
+                           484         3  average
+                           260         4  above average
+                            25         5  far above average
+
+-------------------------------------------------------------------------------------------
+kind_a8                                            -->a8. how often work to best of ability
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a8
+
+                 range:  [-1,4]                       units:  1
+         unique values:  5                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             6        -1  -1 Refused
+                             4         1  never
+                           168         2  seldom
+                           591         3  usually
+                           270         4  always
+
+-------------------------------------------------------------------------------------------
+kind_a9                                             -->a9. was child promoted to 1st grade?
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a9
+
+                 range:  [-2,4]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            25        -2  -2 Dont Know
+                             8        -1  -1 Refused
+                           890         1  yes, promoted to 1st grade
+                            15         2  attending transitional 1st grade
+                                          or pre
+                            47         3  repeating kindergarten
+                            54         4  other (specify)
+
+-------------------------------------------------------------------------------------------
+kind_a9oth                                              -->a9oth. other specified promotion
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a9oth
+
+                 range:  [1,99]                       units:  1
+         unique values:  7                        missing .:  985/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             6         1  special education
+                            33         2  promoted to k5
+                             4         3  recommended repeating
+                             5         4  in k now
+                             1         5  in 4k
+                             2         6  language esd/esl
+                             3        99  not ascertained
+                           985         .  
+
+-------------------------------------------------------------------------------------------
+kind_a10                                            -->a10. parents attend informal meeting
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a10
+
+                 range:  [-1,6]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                           875         1  yes
+                            97         2  no
+                            56         6  not applicable/not offered
+
+-------------------------------------------------------------------------------------------
+kind_a11                                           -->a11. did you communicate with parents
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a11
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             6        -1  -1 Refused
+                           941         1  yes
+                            92         2  no
+
+-------------------------------------------------------------------------------------------
+kind_a12                                           -->a12. was purpose to discuss problems?
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a12
+
+                 range:  [-6,3]                       units:  1
+         unique values:  5                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            92        -6  -6 Skip
+                            28        -1  -1 Refused
+                           352         1  discuss problems
+                           515         2  discuss how well the child is
+                                          doing
+                            52         3  both
+
+-------------------------------------------------------------------------------------------
+kind_a13                                             -->a13. child has diagnosed disability
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a13
+
+                 range:  [-1,8]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            16        -1  -1 Refused
+                            98         1  yes
+                           879         2  no
+                            46         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_a14                                            -->a14. child has an iep for disability
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  a14
+
+                 range:  [-6,8]                       units:  1
+         unique values:  5                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           879        -6  -6 Skip
+                            17        -1  -1 Refused
+                            61         1  yes
+                            56         2  no
+                            26         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_b1a                                              -->b1a. understand & interprets story
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  b1a
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             5        -1  -1 Refused
+                            51         1  not yet
+                           126         2  beginning
+                           238         3  in progress
+                           262         4  intermediate
+                           349         5  proficient
+                             8         6  na
+
+-------------------------------------------------------------------------------------------
+kind_b1b                                                   -->b1b. easily names all letters
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  b1b
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             2        -1  -1 Refused
+                            34         1  not yet
+                            72         2  beginning
+                           126         3  in progress
+                           145         4  intermediate
+                           656         5  proficient
+                             4         6  na
+
+-------------------------------------------------------------------------------------------
+kind_b1c                                           -->b1c. reads simple books independently
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  b1c
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             4        -1  -1 Refused
+                           125         1  not yet
+                           139         2  beginning
+                           191         3  in progress
+                           198         4  intermediate
+                           371         5  proficient
+                            11         6  na
+
+-------------------------------------------------------------------------------------------
+kind_b1d                                            -->b1d. understands convention of print
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  b1d
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             2        -1  -1 Refused
+                            86         1  not yet
+                           148         2  beginning
+                           237         3  in progress
+                           260         4  intermediate
+                           299         5  proficient
+                             7         6  na
+
+-------------------------------------------------------------------------------------------
+kind_b1e                                           -->b1e. recognizes differences in people
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  b1e
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             2        -1  -1 Refused
+                            35         1  not yet
+                           121         2  beginning
+                           230         3  in progress
+                           340         4  intermediate
+                           289         5  proficient
+                            22         6  na
+
+-------------------------------------------------------------------------------------------
+kind_b1f                                           -->b1f.forms explanations on observation
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  b1f
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             3        -1  -1 Refused
+                            55         1  not yet
+                           125         2  beginning
+                           263         3  in progress
+                           298         4  intermediate
+                           278         5  proficient
+                            17         6  na
+
+-------------------------------------------------------------------------------------------
+kind_b1g                                            -->b1g. sorts & compares math materials
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  b1g
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             3        -1  -1 Refused
+                            29         1  not yet
+                            81         2  beginning
+                           183         3  in progress
+                           271         4  intermediate
+                           467         5  proficient
+                             5         6  na
+
+-------------------------------------------------------------------------------------------
+kind_b1h                                           -->b1h. knows relationship of quantities
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  b1h
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             3        -1  -1 Refused
+                            48         1  not yet
+                           106         2  beginning
+                           198         3  in progress
+                           275         4  intermediate
+                           399         5  proficient
+                            10         6  na
+
+-------------------------------------------------------------------------------------------
+kind_b1i                                             -->b1i. variety to solve math problems
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  b1i
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             3        -1  -1 Refused
+                            69         1  not yet
+                           133         2  beginning
+                           246         3  in progress
+                           298         4  intermediate
+                           281         5  proficient
+                             9         6  na
+
+-------------------------------------------------------------------------------------------
+kind_d1a                                            -->d1a. is your school a public school?
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d1a
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -1  -1 Refused
+                           914         1  yes
+                           118         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d1b                                                -->d1b. what type of public school?
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d1b, but 1 nonmissing value is not labeled
+
+                 range:  [-6,5]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           125        -6  
+                             4        -1  -1 Refused
+                           762         1  regular public school (e.g. not
+                                          a magnet
+                            43         2  school with a magnet program
+                                          (e.g. scien
+                            59         3  school of choice (e.g. charter
+                                          school, o
+                             2         4  special education school (e.g.
+                                          primarily
+                            44         5  early childhood center (e.g.
+                                          school/cent
+
+-------------------------------------------------------------------------------------------
+kind_d1c                                            -->d1c. what type of non-public school?
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d1c, but 1 nonmissing value is not labeled
+
+                 range:  [-6,8]                       units:  1
+         unique values:  9                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           921        -6  
+                            21         1  catholic school: diocesan
+                            23         2  catholic school: parish
+                             3         3  catholic school; private order
+                            38         4  private, other religious
+                                          affiliation
+                             3         5  private school accredited by
+                                          nais
+                            17         6  other private
+                             1         7  special education school
+                            12         8  early childhood center
+
+-------------------------------------------------------------------------------------------
+kind_d2a                                                       -->d2a. regular kindergarten
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2a
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                          1018         1  yes
+                            10         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2b                                                                   -->d2b. ungraded
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2b
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            12        -1  -1 Refused
+                            66         1  yes
+                           961         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2c                                            -->d2c. special needs children programs
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2c
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            12        -1  -1 Refused
+                           749         1  yes
+                           278         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2d                                                            -->d2d. prekindergarten
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2d
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                           571         1  yes
+                           457         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2e                                                  -->d2e. transitional kindergarten
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2e
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            12        -1  -1 Refused
+                            83         1  yes
+                           944         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2f                                                     -->d2f. transitional 1st grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2f
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            13        -1  -1 Refused
+                            56         1  yes
+                           970         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2g                                                                  -->d2g. 1st grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2g
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            16        -1  -1 Refused
+                           755         1  yes
+                           268         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2h                                                                  -->d2h. 2nd grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2h
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            16        -1  -1 Refused
+                           744         1  yes
+                           279         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2i                                                                  -->d2i. 3rd grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2i
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            16        -1  -1 Refused
+                           727         1  yes
+                           296         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2j                                                                  -->d2j. 4th grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2j
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            17        -1  -1 Refused
+                           714         1  yes
+                           308         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2k                                                                  -->d2k. 5th grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2k
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            16        -1  -1 Refused
+                           657         1  yes
+                           366         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2l                                                                  -->d2l. 6th grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2l
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            18        -1  -1 Refused
+                           289         1  yes
+                           732         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2m                                                                  -->d2m. 7th grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2m
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            18        -1  -1 Refused
+                           188         1  yes
+                           833         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2n                                                                  -->d2n. 8th grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2n
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            18        -1  -1 Refused
+                           172         1  yes
+                           849         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2o                                                                  -->d2o. 9th grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2o
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            20        -1  -1 Refused
+                            22         1  yes
+                           997         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2p                                                                 -->d2p. 10th grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2p
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            20        -1  -1 Refused
+                            20         1  yes
+                           999         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d2q                                                                 -->d2q. 11th grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2q
+
+                 range:  [1,9]                        units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            18         1  yes
+                          1001         2  no
+                            20         9  not ascertained
+
+-------------------------------------------------------------------------------------------
+kind_d2r                                                                 -->d2r. 12th grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d2r
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            20        -1  -1 Refused
+                            17         1  yes
+                          1002         2  no
+
+-------------------------------------------------------------------------------------------
+kind_d3                                              -->d3. type of k child was enrolled in
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d3
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             8        -1  -1 Refused
+                           196         1  half-day kindergarten class
+                           835         2  full day kindergarten class
+
+-------------------------------------------------------------------------------------------
+kind_d3a_time                                       -->d3a. beginning time of child's class
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+                 label:  d3atime, but 64 nonmissing values are not labeled
+
+                 range:  [-1,1255]                    units:  1
+         unique values:  64                       missing .:  0/1039
+
+              examples:  755   
+                         805   
+                         830   
+                         900   
+
+-------------------------------------------------------------------------------------------
+kind_d3b_time                                             -->d3b. end time of child's class
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+                 label:  d3btime, but 87 nonmissing values are not labeled
+
+                 range:  [-1,1250]                    units:  1
+         unique values:  87                       missing .:  0/1039
+
+              examples:  240   
+                         300   
+                         310   
+                         330   
+
+-------------------------------------------------------------------------------------------
+kind_d4                                             -->d4. type of k program child attended
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d4
+
+                 range:  [-1,6]                       units:  1
+         unique values:  7                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -1  -1 Refused
+                           944         1  regular kindergarten class (1
+                                          year progr
+                            33         2  2-year kindergarten program
+                             8         3  transitional (or readiness)
+                                          kindergarten
+                             1         4  transitional/pre-1st grade class
+                             2         5  upgraded class (with at least
+                                          some kinde
+                            44         6  multigrade class (with at least
+                                          some kin
+
+-------------------------------------------------------------------------------------------
+kind_d5a                                                           -->d5a. pre-kindergarten
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d5a
+
+                 range:  [-6,1]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           995        -6  -6 Skip
+                             3        -1  -1 Refused
+                            12         0  01 not circled
+                            29         1  prekindergarten
+
+-------------------------------------------------------------------------------------------
+kind_d5b                                                -->d5b. transitional (or readiness)
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d5b
+
+                 range:  [-6,2]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           995        -6  -6 Skip
+                             3        -1  -1 Refused
+                            37         0  02 not circled
+                             4         2  transition (or readiness)
+                                          kindergarten
+
+-------------------------------------------------------------------------------------------
+kind_d5c                                                 -->d5c. transitional/pre-1st grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d5c
+
+                 range:  [-6,3]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           995        -6  -6 Skip
+                             3        -1  -1 Refused
+                            38         0  03 not circled
+                             3         3  transitional/pre-1st grade
+
+-------------------------------------------------------------------------------------------
+kind_d5d                                                                  -->d5d. 1st grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d5d
+
+                 range:  [-6,4]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           995        -6  -6 Skip
+                             3        -1  -1 Refused
+                            29         0  04 not circled
+                            12         4  1st grade
+
+-------------------------------------------------------------------------------------------
+kind_d5e                                                                  -->d5e. 2nd grade
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d5e
+
+                 range:  [-6,5]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           995        -6  -6 Skip
+                             3        -1  -1 Refused
+                            36         0  05 not circled
+                             5         5  2nd grade
+
+-------------------------------------------------------------------------------------------
+kind_d5f                                                        -->d5f. 3rd grade or higher
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d5f
+
+                 range:  [-6,6]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           995        -6  -6 Skip
+                             3        -1  -1 Refused
+                            37         0  06 not circled
+                             4         6  3rd grade or higher
+
+-------------------------------------------------------------------------------------------
+kind_d6                                               -->d6. last month of k #kids enrolled
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d6, but 37 nonmissing values are not labeled
+
+                 range:  [-1,46]                      units:  1
+         unique values:  38                       missing .:  0/1039
+
+              examples:  18    
+                         20    
+                         22    
+                         24    
+
+-------------------------------------------------------------------------------------------
+kind_d7                                            -->d7. number of kids present with child
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d7, but 36 nonmissing values are not labeled
+
+                 range:  [-1,51]                      units:  1
+         unique values:  37                       missing .:  0/1039
+
+              examples:  17    
+                         20    
+                         21    
+                         24    
+
+-------------------------------------------------------------------------------------------
+kind_d8                                                   -->d8. number of kids repeating k
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d8, but 9 nonmissing values are not labeled
+
+                 range:  [-1,9]                       units:  1
+         unique values:  11                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             1        -1  -1 Refused
+                           671         0  none
+                           233         1  
+                            85         2  
+                            30         3  
+                             6         4  
+                             6         5  
+                             2         6  
+                             3         7  
+                             1         8  
+                             1         9  
+
+-------------------------------------------------------------------------------------------
+kind_d9                                                -->d9. rate behavior last month of k
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  d9
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             8        -1  -1 Refused
+                            15         1  group misbehaved very frequently
+                                          and was
+                           100         2  groupe misbehaved frequently and
+                                          was oft
+                           416         3  group misbehaved occasionally
+                           406         4  group behaved well
+                            94         5  group behaved exceptionally well
+
+-------------------------------------------------------------------------------------------
+kind_e1a                                                     -->e1a. whole class activities
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e1a
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -1  -1 Refused
+                             2         1  no time
+                            82         2  half-hour or less
+                           328         3  about one hour
+                           386         4  about two hours
+                           234         5  three hours or more
+
+-------------------------------------------------------------------------------------------
+kind_e1b                                               -->e1b. small group class activities
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e1b
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                             8         1  no time
+                           241         2  half-hour or less
+                           450         3  about one hour
+                           287         4  about two hours
+                            42         5  three hours or more
+
+-------------------------------------------------------------------------------------------
+kind_e1c                                                      -->e1c. individual activities
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e1c
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            25        -1  -1 Refused
+                            49         1  no time
+                           511         2  half-hour or less
+                           349         3  about one hour
+                            96         4  about two hours
+                             9         5  three hours or more
+
+-------------------------------------------------------------------------------------------
+kind_e1d                                                  -->e1d. child selected activities
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e1d
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             9        -1  -1 Refused
+                            29         1  no time
+                           451         2  half-hour or less
+                           434         3  about one hour
+                            98         4  about two hours
+                            18         5  three hours or more
+
+-------------------------------------------------------------------------------------------
+kind_e2a                                                        -->e2a. class participation
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e2a
+
+                 range:  [-1,6]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                             8         1  not important
+                           135         2  somewhat important
+                           486         3  very important
+                           395         4  extremely important
+                             4         6  not applicable
+
+-------------------------------------------------------------------------------------------
+kind_e2b                                              -->e2b. classroom behavior or conduct
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e2b
+
+                 range:  [-1,6]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             9        -1  -1 Refused
+                             7         1  not important
+                           106         2  somewhat important
+                           436         3  very important
+                           477         4  extremely important
+                             4         6  not applicable
+
+-------------------------------------------------------------------------------------------
+kind_e2c                                           -->e2c. cooperativeness w/other children
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e2c
+
+                 range:  [-1,6]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             9        -1  -1 Refused
+                             9         1  not important
+                           118         2  somewhat important
+                           502         3  very important
+                           398         4  extremely important
+                             3         6  not applicable
+
+-------------------------------------------------------------------------------------------
+kind_e2d                                               -->e2d. ability to follow directions
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e2d
+
+                 range:  [-1,6]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                             1         1  not important
+                            27         2  somewhat important
+                           350         3  very important
+                           648         4  extremely important
+                             2         6  not applicable
+
+-------------------------------------------------------------------------------------------
+kind_e3                                                 -->e3. #paid aides in child's class
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e3, but 3 nonmissing values are not labeled
+
+                 range:  [-1,3]                       units:  1
+         unique values:  5                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             3        -1  -1 Refused
+                           479         0  none
+                           494         1  
+                            56         2  
+                             7         3  
+
+-------------------------------------------------------------------------------------------
+kind_e4                                               -->e4. aide's first landguage english
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e4
+
+                 range:  [-6,2]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           482        -6  -6 Skip
+                            80        -1  -1 Refused
+                           427         1  yes
+                            50         2  no
+
+-------------------------------------------------------------------------------------------
+kind_e5                                                  -->e5. level of education for aide
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e5
+
+                 range:  [-6,8]                       units:  1
+         unique values:  8                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           482        -6  -6 Skip
+                            76        -1  -1 Refused
+                           206         1  high school diploma or ged
+                            53         2  aa in early childhood education
+                            53         3  ba or bs in elementary education
+                            44         4  working on a bachelor's degree
+                            36         5  other (specify)
+                            89         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_e5oth                                              -->e5oth. other specified education
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  e5oth
+
+                 range:  [1,99]                       units:  1
+         unique values:  10                       missing .:  1003/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             4         1  liberal arts
+                             2         2  nursing degree
+                             7         3  master's in education
+                             9         4  bs in business
+                             3         5  aa degree
+                             1         6  bachelor's degree in
+                                          communication
+                             1         7  ssa
+                             2         8  trade school
+                             1        95  codes to be developed
+                             6        99  not ascertained
+                          1003         .  
+
+-------------------------------------------------------------------------------------------
+kind_f1a                                             -->f1a. the level of child misbehavior
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f1a
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            14        -1  -1 Refused
+                           340         1  strongly disagree
+                           327         2  disagree
+                           151         3  neither agree nor disagree
+                           159         4  agree
+                            48         5  strongly agree
+
+-------------------------------------------------------------------------------------------
+kind_f1b                                               -->f1b. kids not capable of learning
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f1b
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             8        -1  -1 Refused
+                           490         1  strongly disagree
+                           367         2  disagree
+                            86         3  neither agree nor disagree
+                            66         4  agree
+                            22         5  strongly agree
+
+-------------------------------------------------------------------------------------------
+kind_f1c                                            -->f1c. administrative duties interfere
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f1c
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             9        -1  -1 Refused
+                           223         1  strongly disagree
+                           305         2  disagree
+                           206         3  neither agree nor disagree
+                           233         4  agree
+                            63         5  strongly agree
+
+-------------------------------------------------------------------------------------------
+kind_f1d                                            -->f1d. i enjoy my present teaching job
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f1d
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            10        -1  -1 Refused
+                            29         1  strongly disagree
+                            24         2  disagree
+                            39         3  neither agree nor disagree
+                           329         4  agree
+                           608         5  strongly agree
+
+-------------------------------------------------------------------------------------------
+kind_f1e                                            -->f1e. i make a difference to children
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f1e
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                            16         1  strongly disagree
+                             5         2  disagree
+                            11         3  neither agree nor disagree
+                           325         4  agree
+                           671         5  strongly agree
+
+-------------------------------------------------------------------------------------------
+kind_f1f                                              -->f1f. i would choose teaching again
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f1f
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            10        -1  -1 Refused
+                            33         1  strongly disagree
+                            29         2  disagree
+                            81         3  neither agree nor disagree
+                           261         4  agree
+                           625         5  strongly agree
+
+-------------------------------------------------------------------------------------------
+kind_f2                                            -->f2. have influence over school policy
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f2
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                           121         1  no influence
+                           243         2  slight influence
+                           297         3  some influence
+                           229         4  moderate influence
+                           138         5  a great deal of influence
+
+-------------------------------------------------------------------------------------------
+kind_f3                                                  -->f3. control in selecting skills
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f3
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            13        -1  -1 Refused
+                            35         1  no control
+                           103         2  slight control
+                           180         3  some control
+                           285         4  moderate control
+                           423         5  a great deal of control
+
+-------------------------------------------------------------------------------------------
+kind_f4a                                                  -->f4a. crime in the neighborhood
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f4a
+
+                 range:  [-1,8]                       units:  1
+         unique values:  5                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            12        -1  -1 Refused
+                           227         1  a big problem
+                           330         2  somewhat of a problem
+                           354         3  no problem
+                           116         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f4b                                            -->f4b. garbage, litter or broken glass
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f4b
+
+                 range:  [-1,8]                       units:  1
+         unique values:  5                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            12        -1  -1 Refused
+                           178         1  a big problem
+                           332         2  somewhat of a problem
+                           472         3  no problem
+                            45         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f4c                                           -->f4c. selling or using drugs in public
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f4c
+
+                 range:  [-1,8]                       units:  1
+         unique values:  5                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                           155         1  a big problem
+                           246         2  somewhat of a problem
+                           455         3  no problem
+                           172         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f4d                                                              -->f4d. gunshot noise
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f4d
+
+                 range:  [-1,8]                       units:  1
+         unique values:  5                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                            61         1  a big problem
+                           197         2  somewhat of a problem
+                           573         3  no problem
+                           197         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f5a                                                            -->f5a. security guards
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f5a
+
+                 range:  [-1,8]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            12        -1  -1 Refused
+                           256         1  yes
+                           767         2  no
+                             4         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f5b                                                            -->f5b. metal detectors
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f5b
+
+                 range:  [-1,8]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            12        -1  -1 Refused
+                            13         1  yes
+                          1003         2  no
+                            11         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f5c                                                 -->f5c. locked door during the day
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f5c
+
+                 range:  [-1,8]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            10        -1  -1 Refused
+                           844         1  yes
+                           176         2  no
+                             9         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f5d                                           -->f5d. requirement for visitors sign in
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f5d
+
+                 range:  [-1,8]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             9        -1  -1 Refused
+                          1006         1  yes
+                            23         2  no
+                             1         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f5e                                            -->f5e. limits on going to the restroom
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f5e
+
+                 range:  [-1,8]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            14        -1  -1 Refused
+                           434         1  yes
+                           535         2  no
+                            56         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f5f                                             -->f5f. teachers to supervise hallways
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f5f
+
+                 range:  [-1,8]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            11        -1  -1 Refused
+                           473         1  yes
+                           544         2  no
+                            11         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_f5g                                                 -->f5g. hall passes to leave class
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  f5g
+
+                 range:  [-1,8]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            10        -1  -1 Refused
+                           646         1  yes
+                           355         2  no
+                            28         8  don't know
+
+-------------------------------------------------------------------------------------------
+kind_g1                                                   -->g1. highest level of education
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g1
+
+                 range:  [-1,9]                       units:  1
+         unique values:  10                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             4        -1  -1 Refused
+                            11         1  high school diploma or ged
+                            15         2  associate's degree
+                           265         3  bachelor's
+                           256         4  at least 1 year of course work
+                                          beyond a
+                           397         5  master's
+                            84         6  education specialist or
+                                          professional dip
+                             4         7  doctorate
+                             2         8  other (specify)
+                             1         9  working towards teaching degree
+
+-------------------------------------------------------------------------------------------
+kind_g2a                                                  -->g2a. early childhood education
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g2a
+
+                 range:  [-2,6]                       units:  1
+         unique values:  9                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             8        -2  -2 Dont Know
+                            43        -1  -1 Refused
+                            61         0  none
+                            45         1  one
+                            67         2  two
+                            72         3  three
+                            67         4  four
+                            73         5  five
+                           603         6  six or more
+
+-------------------------------------------------------------------------------------------
+kind_g2b                                                       -->g2b. elementary education
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g2b
+
+                 range:  [-2,6]                       units:  1
+         unique values:  9                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -2  -2 Dont Know
+                            39        -1  -1 Refused
+                            44         0  none
+                            11         1  one
+                            39         2  two
+                            35         3  three
+                            46         4  four
+                            57         5  five
+                           761         6  six or more
+
+-------------------------------------------------------------------------------------------
+kind_g2c                                                          -->g2c. child development
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g2c
+
+                 range:  [-2,6]                       units:  1
+         unique values:  9                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -2  -2 Dont Know
+                            40        -1  -1 Refused
+                            22         0  none
+                            49         1  one
+                           146         2  two
+                           148         3  three
+                           116         4  four
+                            61         5  five
+                           450         6  six or more
+
+-------------------------------------------------------------------------------------------
+kind_g3                                               -->g3. type of teaching certification
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g3
+
+                 range:  [-1,5]                       units:  1
+         unique values:  6                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            19        -1  -1 Refused
+                            31         1  none
+                            58         2  temporary, probational,
+                                          provisional or e
+                            31         3  certificate for completion of an
+                                          alterna
+                           227         4  regular certification but less
+                                          than the
+                           673         5  the highest certification
+                                          available (per
+
+-------------------------------------------------------------------------------------------
+kind_g4a                                                       -->g4a. elementary education
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g4a, but 1 nonmissing value is not labeled
+
+                 range:  [-6,2]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            50        -6  
+                             4        -1  -1 Refused
+                           821         1  yes
+                           164         2  no
+
+-------------------------------------------------------------------------------------------
+kind_g4b                                                            -->g4b. early childhood
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g4b, but 1 nonmissing value is not labeled
+
+                 range:  [-6,2]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            50        -6  
+                             4        -1  -1 Refused
+                           672         1  yes
+                           313         2  no
+
+-------------------------------------------------------------------------------------------
+kind_g4c                                                             -->g4c other (specify)
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g4c, but 1 nonmissing value is not labeled
+
+                 range:  [-6,2]                       units:  1
+         unique values:  4                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            50        -6  
+                             4        -1  -1 Refused
+                           226         1  yes
+                           759         2  no
+
+-------------------------------------------------------------------------------------------
+kind_g4coth                                                 -->g4coth. other specified area
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g4coth
+
+                 range:  [1,99]                       units:  1
+         unique values:  23                       missing .:  809/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            72         1  special education
+                             5         2  social work
+                            33         3  bilingual/esl
+                             5         4  education leadership
+                             4         5  psychology
+                            12         6  secondary education
+                            49         7  reading
+                             4         8  school counselor
+                             1         9  visually impaired
+                             2        10  library
+                             2        11  speech pathology
+                             8        12  kindergarten endorsement
+                            11        13  middle school
+                             3        14  adminstrative
+                             1        15  literacy
+                             1        16  journalism
+                             1        17  bible study
+                             1        18  cross cultural academic
+                                          development
+                             1        19  biology
+                             1        20  natural science
+                             2        21  p.e.
+                             4        95  codes to be developed
+                             7        99  not ascertained
+                           809         .  
+
+-------------------------------------------------------------------------------------------
+kind_g5                                                    -->g5. hispanic or latino origin
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g5
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             8        -1  -1 Refused
+                           146         1  yes
+                           885         2  no
+
+-------------------------------------------------------------------------------------------
+kind_g6                                              -->g6. which best describes your race?
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g6
+
+                 range:  [-1,12]                      units:  1
+         unique values:  10                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                            37        -1  -1 Refused
+                             2         1  american indian or alaska native
+                            25         2  asian
+                           170         3  black or african american
+                             1         4  native hawaiian or other pacific
+                                          islande
+                           746         5  white
+                             5         6  other (specify)
+                             5        10  puerto rican
+                            29        11  hispanic
+                            19        12  mexican
+
+-------------------------------------------------------------------------------------------
+kind_g7ayr                                          -->g7a. preschool or head start (years)
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g7ayr, but 28 nonmissing values are not labeled
+
+                 range:  [-1,35]                      units:  1
+         unique values:  30                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -1  -1 Refused
+                           684         0  never
+                            53         1  
+                            63         2  
+                            48         3  
+                            38         4  
+                            32         5  
+                            22         6  
+                            11         7  
+                            13         8  
+                            11         9  
+                            16        10  
+                             3        11  
+                             5        12  
+                             2        13  
+                            11        15  
+                             3        16  
+                             2        17  
+                             2        18  
+                             1        19  
+                             2        20  
+                             1        21  
+                             1        24  
+                             1        25  
+                             2        26  
+                             1        27  
+                             1        30  
+                             1        31  
+                             1        33  
+                             1        35  
+
+-------------------------------------------------------------------------------------------
+kind_g7amo                                         -->g7a. preschool or head start (months)
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g7amo, but 10 nonmissing values are not labeled
+
+                 range:  [-1,10]                      units:  1
+         unique values:  12                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -1  -1 Refused
+                           928         0  never
+                             3         1  
+                            17         2  
+                            17         3  
+                             6         4  
+                             6         5  
+                            35         6  
+                             3         7  
+                             7         8  
+                             5         9  
+                             5        10  
+
+-------------------------------------------------------------------------------------------
+kind_g7byr                                                -->g7b. years taught kindergarten
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g7byr, but 38 nonmissing values are not labeled
+
+                 range:  [-1,45]                      units:  1
+         unique values:  40                       missing .:  0/1039
+
+              examples:  2     
+                         4     
+                         8     
+                         15    
+
+-------------------------------------------------------------------------------------------
+kind_g7bmo                                               -->g7b. months taught kindergarten
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g7bmo, but 11 nonmissing values are not labeled
+
+                 range:  [-1,11]                      units:  1
+         unique values:  13                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             5        -1  -1 Refused
+                           673         0  never
+                            33         1  
+                            54         2  
+                            51         3  
+                            42         4  
+                            16         5  
+                            37         6  
+                            21         7  
+                            52         8  
+                            36         9  
+                            18        10  
+                             1        11  
+
+-------------------------------------------------------------------------------------------
+kind_g7cyr                                                      -->g7c. first grade (years)
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g7cyr, but 22 nonmissing values are not labeled
+
+                 range:  [-1,25]                      units:  1
+         unique values:  24                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -1  -1 Refused
+                           681         0  never
+                           110         1  
+                            50         2  
+                            45         3  
+                            21         4  
+                            28         5  
+                            18         6  
+                            18         7  
+                             9         8  
+                             7         9  
+                            18        10  
+                             3        11  
+                             5        12  
+                             3        13  
+                             1        14  
+                             3        15  
+                             3        16  
+                             1        17  
+                             1        18  
+                             2        19  
+                             1        20  
+                             1        22  
+                             3        25  
+
+-------------------------------------------------------------------------------------------
+kind_g7cmo                                                     -->g7c. first grade (months)
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g7cmo, but 8 nonmissing values are not labeled
+
+                 range:  [-1,9]                       units:  1
+         unique values:  10                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -1  -1 Refused
+                           958         0  never
+                             7         1  
+                             7         2  
+                            18         3  
+                            13         4  
+                             5         5  
+                            14         6  
+                             4         8  
+                             6         9  
+
+-------------------------------------------------------------------------------------------
+kind_g8                                                         -->g8. what is your gender?
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g8
+
+                 range:  [-1,2]                       units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             4        -1  -1 Refused
+                            27         1  male
+                          1008         2  female
+
+-------------------------------------------------------------------------------------------
+kind_g9mo                                             -->g9mo. date questionnaire completed
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  g9mo, but 12 nonmissing values are not labeled
+
+                 range:  [-1,12]                      units:  1
+         unique values:  13                       missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                             7        -1  -1 Refused
+                            44         1  
+                            20         2  
+                            20         3  
+                           254         4  
+                           138         5  
+                           100         6  
+                             7         7  
+                             3         8  
+                           152         9  
+                           180        10  
+                            88        11  
+                            26        12  
+
+-------------------------------------------------------------------------------------------
+kind_g9yr                                             -->g9yr. date questionnaire completed
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+                 label:  g9yr, but 3 nonmissing values are not labeled
+
+                 range:  [2005,2007]                  units:  1
+         unique values:  3                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           227      2005  
+                           722      2006  
+                            90      2007  
+
+-------------------------------------------------------------------------------------------
+kind_year                                                                 kindergarten year
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  kyear
+
+                 range:  [1,2]                        units:  1
+         unique values:  2                        missing .:  0/1039
+
+            tabulation:  Freq.   Numeric  Label
+                           319         1  2004/2005
+                           720         2  2005/2006
+
+-------------------------------------------------------------------------------------------
+kind_data                         focal child's teacher participated in kindergarten survey
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [1,1]                        units:  1
+         unique values:  1                        missing .:  0/1039
+
+            tabulation:  Freq.  Value
+                          1039  1
+
+-------------------------------------------------------------------------------------------
+kind_d3a_ampm                                     beginning time of child's class: am or pm
+-------------------------------------------------------------------------------------------
+
+                  type:  string (str2)
+
+         unique values:  3                        missing "":  0/1039
+
+            tabulation:  Freq.  Value
+                             3  "-1"
+                           989  "AM"
+                            47  "PM"
+
+-------------------------------------------------------------------------------------------
+kind_d3b_ampm                                           end time of child's class: am or pm
+-------------------------------------------------------------------------------------------
+
+                  type:  string (str2)
+
+         unique values:  3                        missing "":  0/1039
+
+            tabulation:  Freq.  Value
+                             3  "-1"
+                            72  "AM"
+                           964  "PM"
+
+-------------------------------------------------------------------------------------------
+kind_aggressive_scale                    aggressive subscale using child behavior variables
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+
+                 range:  [-3,57]                      units:  1
+         unique values:  36                       missing .:  0/1039
+
+                  mean:   22.6805
+              std. dev:   7.66494
+
+           percentiles:        10%       25%       50%       75%       90%
+                                19        19        20        25        32
+
+-------------------------------------------------------------------------------------------
+kind_attention_scale                      attention subscale using child behavior variables
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+
+                 range:  [-3,27]                      units:  1
+         unique values:  19                       missing .:  0/1039
+
+            tabulation:  Freq.  Value
+                            27  -3
+                           325  9
+                           142  10
+                            95  11
+                            74  12
+                            77  13
+                            58  14
+                            42  15
+                            45  16
+                            34  17
+                            33  18
+                            34  19
+                            18  20
+                            18  21
+                             9  22
+                             1  23
+                             3  24
+                             3  25
+                             1  27
+
+-------------------------------------------------------------------------------------------
+kind_social_scale                   social problems subscale using child behavior variables
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+
+                 range:  [-3,16]                      units:  1
+         unique values:  12                       missing .:  0/1039
+
+            tabulation:  Freq.  Value
+                            22  -3
+                           479  6
+                           213  7
+                           146  8
+                            77  9
+                            47  10
+                            25  11
+                            18  12
+                             4  13
+                             3  14
+                             3  15
+                             2  16
+
+-------------------------------------------------------------------------------------------
+kind_teacherage                                               teacher age at time of survey
+-------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+
+                 range:  [-3,74]                      units:  1
+         unique values:  49                       missing .:  0/1039
+
+                  mean:   38.6285
+              std. dev:   16.0706
+
+           percentiles:        10%       25%       50%       75%       90%
+                                25        29        38        52        57
+
+. 
+end of do-file
