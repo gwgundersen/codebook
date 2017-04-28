@@ -62,7 +62,7 @@ def _add_metadata(data):
 
 
 def _search_description_by_query(q):
-    """
+    """Returns questions whose description contains the query.
     """
     results = []
     for code, data in db.items():
